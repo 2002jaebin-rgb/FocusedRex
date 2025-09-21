@@ -1,0 +1,46 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="60" fill="url(#bg)" stroke="#fff" stroke-width="4"/>
+  
+  <!-- Dinosaur body -->
+  <ellipse cx="64" cy="80" rx="25" ry="20" fill="#4CAF50"/>
+  
+  <!-- Dinosaur head -->
+  <ellipse cx="64" cy="50" rx="20" ry="25" fill="#66BB6A"/>
+  
+  <!-- Eye -->
+  <circle cx="58" cy="45" r="3" fill="#fff"/>
+  <circle cx="58" cy="45" r="1.5" fill="#000"/>
+  
+  <!-- Mouth -->
+  <path d="M 55 55 Q 64 60 73 55" stroke="#000" stroke-width="2" fill="none"/>
+  
+  <!-- Spikes on back -->
+  <polygon points="50,65 45,55 55,60" fill="#2E7D32"/>
+  <polygon points="60,60 55,50 65,55" fill="#2E7D32"/>
+  <polygon points="70,65 65,55 75,60" fill="#2E7D32"/>
+  <polygon points="78,70 73,60 83,65" fill="#2E7D32"/>
+  
+  <!-- Tail -->
+  <ellipse cx="90" cy="85" rx="15" ry="8" fill="#4CAF50" transform="rotate(30 90 85)"/>
+  
+  <!-- Legs -->
+  <ellipse cx="55" cy="95" rx="6" ry="12" fill="#2E7D32"/>
+  <ellipse cx="73" cy="95" rx="6" ry="12" fill="#2E7D32"/>
+  
+  <!-- Arms -->
+  <ellipse cx="45" cy="75" rx="8" ry="15" fill="#4CAF50" transform="rotate(-20 45 75)"/>
+  <ellipse cx="83" cy="75" rx="8" ry="15" fill="#4CAF50" transform="rotate(20 83 75)"/>
+  
+  <!-- Focus indicator (clock) -->
+  <circle cx="100" cy="30" r="15" fill="#FF6B6B" stroke="#fff" stroke-width="2"/>
+  <line x1="100" y1="30" x2="100" y2="20" stroke="#fff" stroke-width="2"/>
+  <line x1="100" y1="30" x2="105" y2="30" stroke="#fff" stroke-width="1"/>
+</svg>
